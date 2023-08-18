@@ -23,23 +23,22 @@ Install dependencies
   npm install
 ```
 
-or 
+Start the server only Client
 
 ```bash
-  yarn install
+  npm run dev
 ```
-
-Start the server
+Start the serve SRR
 
 ```bash
-  npm run start
+  npm run build
 ```
+
+```bash
+  npm run serve
+```
+
 
 ## Demo
-
-
-
-## Screenshots
-
-
+![Screen Recording 2023-08-18 at 15 57 36 (video-converter com)](https://github.com/luizalves-yape/cra-ssr-vite-ts/assets/132091334/06d0d979-65a8-4444-aff8-0f063a394c7e)
 
