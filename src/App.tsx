@@ -2,17 +2,20 @@ import React, { useState, Suspense, lazy, Fragment } from "react";
 import logo from "./logo.svg";
 import "./App.scss";
 
-let TestLazy;
+let TestLazy: any;
 let SuspenseTwo = Suspense;
 
 if (import.meta.env.SSR) {
   // ... server only logic
+  console.log("hi SSR");
+  console.log(import.meta.env)
   SuspenseTwo = Fragment;
 }
 
 if (!import.meta.env.SSR) {
   // ...  client only logic
   console.log("hi");
+  console.log(import.meta.env)
   TestLazy = lazy(() => import("./TestLazy"));
 }
 
@@ -39,7 +42,7 @@ export function App() {
           </button>
         </p>
         <p>
-          Edit <code>App.tsx</code> and save to test HMR updates.
+          Edit ok vamos testar <code>App.tsx</code> and save to test HMR updates.
         </p>
         <p>
           <a
