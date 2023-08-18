@@ -1,12 +1,45 @@
-# react-suspense-vite-ssr
-A playground to get React Suspense to play nice with SSR in ViteJS
 
-I'm just trying to get SSR working in an app that uses React Suspense. It doesn't need to be amazing, just work for both client and server rendering. 
+# POC - A project in React, TypeScript, Vite and SSR
 
-This solution is basically over writing the Suspense component to be a Fragment and pre-loading the lazy component only on the server side. Please lmk what you think of this, if it's dumb or a good avenue to go down.
+Proof of concept done in a CRA app with Vite doing SSR and mapping earnings etc.
 
-Level Up Tutorials Discord
+## Tech Stack
 
-https://discord.gg/ccMC6kB
+**Client:** React, TypeScript, Vite
 
-https://leveluptutorials.com/
+**Server:** Node, Express
+    
+## Run Locally
+
+Go to the project directory
+
+```bash
+  cd cra-ssr-vite-ts
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+or 
+
+```bash
+  yarn install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+## Demo
+
+
+
+## Screenshots
+
+
+
